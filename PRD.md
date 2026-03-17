@@ -73,22 +73,34 @@ Multiplicacion de probabilidad por impacto:
 
 <= 5     Riesgo bajo 
 
-## 4. Evaluación del Impacto 
+## 4. Evaluación de Impacto
 
 ### Riesgos de Negocio 
 
 - Retrasos en la entrega 
 
-Afecta la confianza del cliente y puede generar problemas organizacionales. 
+Afecta la confianza del cliente,a su vez la reputación de la empresa , 
+puede generar problemas organizacionales para reestructurar el horario planeado y tareas. 
 
 - Sobrecostos 
 
-Limita el presupuesto del team de desarrollo. Incluso puede frenar la escalabilidad del producto. 
+Limita el presupuesto del team de desarrollo, lo cual puede limitar tambien el acceso a ciertos recursos y herramientas.
+ Incluso puede frenar la escalabilidad del producto. 
 
 - Cambios operativos 
 
-Puede generar restructuracion de planes, horarios y tareas.
+Puede generar restructuracion de planes, horarios y tareas lo que podria afectar la productividad del equipo y 
+retardar entregas .
 
+- Poca acogida del MVP 
+
+ Afecta directamente la viabilidad del producto y la inversión futura.
+
+### Riesgos Técnicos 
+
+- Falta de claridad en los requerimientos 
+
+ Deriva en funcionalidades mal implementadas, retrabajo y defectos en producción. Es uno de los riesgos más graves en QA. 
 
 
 
