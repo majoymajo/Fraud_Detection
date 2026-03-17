@@ -59,9 +59,35 @@ Técnicos:  Falta de claridad en requerimientos, bajo desempeño , contratiempos
 
 ## 2. Definir Probabilidad e impacto 
 
-Probabilidad:  1 (muy baja) a 5 (muy alta) 
+**Probabilidad**:  1 (muy baja) a 5 (muy alta) 
 
-Impacto: 1(mínimo) a 5 (crítico) 
+**Impacto**: 1(mínimo) a 5 (crítico) 
+
+## 3. Priorización de riesgos 
+
+Multiplicacion de probabilidad por impacto: 
+
+>= 12   Riesgo Alto 
+
+6-11     Riesgo medio 
+
+<= 5     Riesgo bajo 
+
+## 4. Evaluación del Impacto 
+
+### Riesgos de Negocio 
+
+- Retrasos en la entrega 
+
+Afecta la confianza del cliente y puede generar problemas organizacionales. 
+
+- Sobrecostos 
+
+Limita el presupuesto del team de desarrollo. Incluso puede frenar la escalabilidad del producto. 
+
+- Cambios operativos 
+
+Puede generar restructuracion de planes, horarios y tareas.
 
 
 
