@@ -100,7 +100,15 @@ retardar entregas .
 
 - Falta de claridad en los requerimientos 
 
- Deriva en funcionalidades mal implementadas, retrabajo y defectos en producción. Es uno de los riesgos más graves en QA. 
+ Deriva en funcionalidades mal implementadas, retrabajo y defectos en producción. 
+
+- Bajo desempeño 
+
+Afecta la experiencia de usuario y la adopción del producto. Incluso puede provocar pérdida de clientes o fracaso del proyecto. 
+
+- Contratiempos operativos 
+
+ Generan re-planificacion de horarios y tareas lo que podria afectar la productividad y bienestear del equipo
 
 
 
