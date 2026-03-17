@@ -43,12 +43,12 @@ El MVP incluirá:
 
 ## Riesgos de Negocio y Técnicos
 
-    Identificacion de riesgos 
+**Metodología seleccionada**: Analisis Cualitativo & Businness Impact Analysis
 
-    Analisis cualitativo 
+- Identificacion de riesgos
+- Definir la probabilidad e impacto
+- Priorizacion de riesgos
+- Determinacion de los tiempos de recuperacion
+- Plan de accion ante riesgos
+- Monitoreo
 
-    Analisis cuantitativo 
-
-    Plan de accion ante Riesgos  
-
-    Monitoreo 
