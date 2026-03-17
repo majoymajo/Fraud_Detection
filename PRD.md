@@ -43,12 +43,26 @@ El MVP incluirá:
 
 ## Riesgos de Negocio y Técnicos
 
-**Metodología seleccionada**: Analisis Cualitativo & Businness Impact Analysis
 
-- Identificacion de riesgos
-- Definir la probabilidad e impacto
-- Priorizacion de riesgos
-- Determinacion de los tiempos de recuperacion
-- Plan de accion ante riesgos
-- Monitoreo
+1. Identificacion de riesgos 
+2. Definir la probabilidad e impacto
+3. Priorizacion de riesgos
+4. Determinacion de los tiempos de recuperacion
+5. Plan de accion ante riesgos
+6. Monitoreo
+
+### 1. Identificacion de Riesgos 
+
+Negocio: Retrasos en entregas, sobrecostos , cambios operativos , poca acogida del MVP. 
+
+Técnicos:  Falta de claridad en requerimientos, bajo desempeño , contratiempos operativos , fallos técnicos . 
+
+## 2. Definir Probabilidad e impacto 
+
+Probabilidad:  1 (muy baja) a 5 (muy alta) 
+
+Impacto: 1(mínimo) a 5 (crítico) 
+
+
+
 
