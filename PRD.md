@@ -40,3 +40,19 @@ El MVP incluirá:
     4. Registro:
 
     - Registro de todas las transacciones evaluadas y su resultado.
+
+## Riesgos de Negocio y Técnicos
+
+### Brainstorming: 
+
+    - Contratiempos operativos 
+
+    - Bajo desempeño 
+
+    - Costes elevados 
+
+    - Factor tiempo 
+
+    - Cambios operativos 
+
+    - Falta de claridad 
