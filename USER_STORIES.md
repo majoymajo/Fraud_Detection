@@ -21,6 +21,6 @@
 **Como** sistema antifraude
 
 **Quiero** marcar transacciones como 
-sospechosas cuando cumplan condiciones de riesgo
+sospechosas cuando cumplan cumplan los siguientes criterios(ej. monto alto o ubicación inusual)
 
-**Para** permitir su posterior revisión
+**Para** permitir su revisión
