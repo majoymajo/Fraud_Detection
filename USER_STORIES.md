@@ -12,6 +12,6 @@
 
 **Como** sistema antifraude
 
-**Quiero** analizar desde dónde se realiza cada transacción
+**Quiero** detectar la ubicación de cada transacción comparándola con la ubicación habitual del usuario
 
-**Para** detectar si ocurre en un país diferente al habitual del usuario
+**Para** identificar si es sospechosa. 
