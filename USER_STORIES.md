@@ -72,3 +72,11 @@ sospechosas cuando cumplan cumplan los siguientes criterios(ej. monto alto o ubi
 **Quiero** definir las ubicaciones habituales de un usuario basadas en su historial de transacciones
 
 **Para** mejorar la detección de anomalías
+
+## HU10 – Configurar niveles de riesgo
+
+**Como** administrador
+
+**Quiero** definir los criterios de clasificación de riesgo
+
+**Para** ajustar la priorización de transacciones
