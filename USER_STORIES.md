@@ -24,3 +24,11 @@
 sospechosas cuando cumplan cumplan los siguientes criterios(ej. monto alto o ubicación inusual)
 
 **Para** permitir su revisión
+
+## HU4 Clasificar nivel de riesgo
+
+**Como**: Sistema Antifraude.
+
+**Quiero**: Asignar una categoría de riesgo (Alto, Medio, Bajo) a cada transacción sospechosa.
+
+**Para**: Priorizar la atención de los analistas de seguridad.
