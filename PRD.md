@@ -45,6 +45,12 @@ Para mantener el enfoque en un MVP, se decidió dejar por fuera funcionalidades 
 
     •	Dashboards o analítica visual
 
+    •	Sistemas complejos de usuarios y autenticación
+
+    •	Un motor de reglas avanzado 
+
+    •	Auditorías detalladas con trazabilidad completa
+
 
 El producto en su primera versión se enfocará en la detección básica de transacciones sospechosas mediante reglas simples y claras con un plan efectivo de mejora continua.
 
