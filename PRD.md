@@ -27,6 +27,12 @@ Para la primera versión del sistema, nos vamos a enfocar en funcionalidades bá
 
     •	Marcar automáticamente como sospechosas aquellas transacciones que cumplan alguna condición de riesgo
 
+    •	Asignar un nivel de riesgo sencillo (alto, medio o bajo) según las reglas definidas
+
+    •	Generar alertas básicas dentro del sistema cuando se detecte algo sospechoso
+    
+    •	Guardar un registro de cada evaluación para poder consultarlo después
+
 
 
 El producto en su primera versión se enfocará en la detección básica de transacciones sospechosas mediante reglas simples y claras con un plan efectivo de mejora continua.
