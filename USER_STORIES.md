@@ -29,6 +29,6 @@ sospechosas cuando cumplan cumplan los siguientes criterios(ej. monto alto o ubi
 
 **Como**: Sistema Antifraude.
 
-**Quiero**: Asignar una categoría de riesgo (Alto, Medio, Bajo) a cada transacción sospechosa.
+**Quiero**: Asignar una categoría de riesgo (Alto, Medio, Bajo) a cada transacción sospechosa según los criterios establecidos
 
-**Para**: Priorizar la atención de los analistas de seguridad.
+**Para**: priorizar su análisis.
