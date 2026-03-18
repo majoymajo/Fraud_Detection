@@ -2,9 +2,9 @@
 
 ## HU1 – Evaluar monto de la transacción
 
-**Como** parte del sistema antifraude
+**Como** Sistema antifraude
 
-**Quiero** revisar el monto de cada transacción 
+**Quiero** revisar el monto de cada transacción  que se realiza
 
-**Para** poder identificar cuando un valor es inusualmente alto y tratarlo como sospechoso
+**Para**  identificar valores inusualmente altos y marcarlos como sospechosos
 
