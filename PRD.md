@@ -30,9 +30,20 @@ Para la primera versión del sistema, nos vamos a enfocar en funcionalidades bá
     •	Asignar un nivel de riesgo sencillo (alto, medio o bajo) según las reglas definidas
 
     •	Generar alertas básicas dentro del sistema cuando se detecte algo sospechoso
-    
+
     •	Guardar un registro de cada evaluación para poder consultarlo después
 
+**OUT**
+
+Para mantener el enfoque en un MVP, se decidió dejar por fuera funcionalidades más avanzadas que pueden desarrollarse en futuras versiones, como:
+
+    •	El uso de inteligencia artificial o modelos de Machine Learning
+
+    •	Integraciones externas como correos, mensajes SMS o APIs bancarias
+
+    •	bloqueo automático de transacciones
+
+    •	Dashboards o analítica visual
 
 
 El producto en su primera versión se enfocará en la detección básica de transacciones sospechosas mediante reglas simples y claras con un plan efectivo de mejora continua.
