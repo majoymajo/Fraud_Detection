@@ -17,6 +17,18 @@ Desarrollar un sistema antifraude que permita detectar transacciones sospechosas
 
 ## Alcance del MVP
 
+**IN**
+
+Para la primera versión del sistema, nos vamos a enfocar en funcionalidades básicas. El sistema podrá:
+
+    •	Evaluar si el monto de una transacción supera un valor límite definido
+
+    •	Analizar desde dónde se realiza la transacción para identificar ubicaciones inusuales
+
+    •	Marcar automáticamente como sospechosas aquellas transacciones que cumplan alguna condición de riesgo
+
+
+
 El producto en su primera versión se enfocará en la detección básica de transacciones sospechosas mediante reglas simples y claras con un plan efectivo de mejora continua.
 
 El MVP incluirá:
@@ -24,7 +36,7 @@ El MVP incluirá:
     1. Evaluación de transacciones en tiempo real basada en dos criterios:
 	
     - Monto superior a un umbral fijo (ej. 15,000).
-    - Lugar de la transacción inusual (paraísos fiscales )o fuera del país del usuario.
+    - Lugar de la transacción inusual (paraísos fiscales ) o fuera del país del usuario.
 	
     2. Clasificación de la transacción como:
 
