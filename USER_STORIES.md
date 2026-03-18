@@ -48,3 +48,11 @@ sospechosas cuando cumplan cumplan los siguientes criterios(ej. monto alto o ubi
 **Quiero** guardar el resultado de cada transacción analizada
 
 **Para** tener un historial que permita auditar las decisiones tomadas
+
+## HU7 – Marcar transacciones para revisión manual
+
+**Como** sistema antifraude
+
+**Quiero** marcar ciertas transacciones como “requiere revisión manual”
+
+**Para** que puedan ser analizadas por un operador humano cuando no sean concluyentes
