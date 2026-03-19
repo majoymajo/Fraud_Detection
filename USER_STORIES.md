@@ -63,6 +63,12 @@ sospechosas cuando cumplan cumplan los siguientes criterios(ej. monto alto o ubi
         Cuando la transacción no cumple alguno de estos criterios 
 
         Entonces el sistema señala como sospechosa la transacción. 
+**Escenario 2: Señal de Transacción no sospechosa**
+        Dado que el sistema evalua el monto y lugar de cada transacción  
+
+        Cuando la transacción cumple con estos criterios 
+
+        Enconces el sistema señala como no sospechosa a la transacción         
 
 ## HU4 Clasificar nivel de riesgo
 
