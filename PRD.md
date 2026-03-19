@@ -104,7 +104,7 @@ Técnicos:  Falta de claridad en requerimientos, bajo desempeño , contratiempos
 
 ## 3. Evaluación de Impacto 
 
-### Riesgos de Negocio 
+### **Riesgos de Negocio** 
 
 - **Retrasos en la entrega** 
 
@@ -125,7 +125,7 @@ Técnicos:  Falta de claridad en requerimientos, bajo desempeño , contratiempos
 
         Afecta directamente la viabilidad del producto y la inversión futura.
 
-### Riesgos Técnicos 
+### **Riesgos Técnicos** 
 
 - **Falta de claridad en los requerimientos** 
 
@@ -178,25 +178,25 @@ Tiempo máximo para restablecer operaciones despúes de un incidente :
 
 ## 6 Plan de acción ante riesgos
 
-### Riesgos de Negocio
+### **Riesgos de Negocio**
 
 - **Retrasos en la entrega**
 
-    Comunicar a los clientes con anticipación o dar updates regulares. 
+        Comunicar a los clientes con anticipación o dar updates regulares. 
 
-    Actualización del plan con nuevos horarios y distribución de tareas.
+        Actualización del plan con nuevos horarios y distribución de tareas.
 
 - **Sobrecostos**
 
-    Colaborar con el equipo de finanzas para distribuir adecuadamente el dinero en herramientas de IT con el presupuesto disponible. 
+        Colaborar con el equipo de finanzas para distribuir adecuadamente el dinero en herramientas de IT con el presupuesto disponible. 
 
-    Cancelación de suscripciones no utilizadas o no necesarias.
+        Cancelación de suscripciones no utilizadas o no necesarias.
 
 - **Cambios operativos**
 
-    Reestructuracion del plan de trabajo y tareas.  
+        Reestructuracion del plan de trabajo y tareas.  
 
-    Comunicar a los clientes con anticipación o dar updates regulares.
+        Comunicar a los clientes con anticipación o dar updates regulares.
 
 - **Poca acogida del MVP**
 
@@ -204,7 +204,7 @@ Tiempo máximo para restablecer operaciones despúes de un incidente :
 
     Demostraciones live del MVP.
 
-### Riesgos Técnicos
+### **Riesgos Técnicos**
 
 - **Falta de claridad en los requerimientos**
 
