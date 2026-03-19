@@ -123,25 +123,25 @@ Técnicos:  Falta de claridad en requerimientos, bajo desempeño , contratiempos
 
 - **Poca acogida del MVP**
 
-    Afecta directamente la viabilidad del producto y la inversión futura.
+        Afecta directamente la viabilidad del producto y la inversión futura.
 
 ### Riesgos Técnicos 
 
-- Falta de claridad en los requerimientos 
+- **Falta de claridad en los requerimientos** 
 
- Deriva en funcionalidades mal implementadas, retrabajo y defectos en producción. 
+        Deriva en funcionalidades mal implementadas, retrabajo y defectos en producción. 
 
-- Bajo desempeño 
+- **Bajo desempeño** 
 
-Afecta la experiencia de usuario y la adopción del producto. Incluso puede provocar pérdida de clientes o fracaso del proyecto. 
+        Afecta la experiencia de usuario y la adopción del producto. Incluso puede provocar pérdida de clientes o fracaso del proyecto. 
 
-- Contratiempos operativos 
+- **Contratiempos operativos**
 
- Generan re-planificacion de horarios y tareas lo que podria afectar la productividad y bienestear del equipo
+        Generan re-planificacion de horarios y tareas lo que podria afectar la productividad y bienestear del equipo
 
-- Fallos técnicos  
+- **Fallos técnicos**
 
-Pueden interrumpir servicios críticos, afectar disponibilidad y perjudicar la reputación de la empresa.
+        Pueden interrumpir servicios críticos, afectar disponibilidad y perjudicar la reputación de la empresa.
 
 
 ## 4. Priorización de riesgos
@@ -158,6 +158,7 @@ Multiplicacion de probabilidad por impacto:
 | Sobrecostos              | 2            | 4       | 8         |
 | Cambios operativos       | 3            | 3       | 9         |
 | Poca acogida del MVP     | 2            | 5       | 10        |
+
 | Riesgos técnicos         | Probabilidad | Impacto | Prioridad |
 |--------------------------|--------------|---------|-----------|
 | Falta de claridad        |              |         |           |
