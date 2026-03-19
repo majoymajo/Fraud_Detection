@@ -11,3 +11,15 @@
     •	Determinar si el monto es normal o inusual
 
     • 	Manejar errores como montos negativos o valores no numéricos 
+
+# HU2 – Evaluar ubicación de la transacción
+
+## DEV Tasks
+
+    •	Definir el modelo con los datos de ubicación (país, ciudad, IP)
+
+    •	Comparar la ubicación actual con el historial de ubicaciones del usuario
+
+    •	Crear la lógica para detectar si una ubicación es inusual
+
+    •	Devolver si la ubicación es inusual o no
