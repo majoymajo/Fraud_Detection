@@ -167,6 +167,8 @@ en requerimientos          | 3            | 4       | 12        |
 | Contratiempos operativos | 2            | 3       | 6         |
 | Fallos técnicos          | 3            | 5       | 15        |
 
+### Matriz de Riesgos
+![alt text](image.png)
 
 ## 5. Determinación de tiempos de recuperación
 
@@ -176,7 +178,7 @@ Tiempo máximo para restablecer operaciones despúes de un incidente :
 
 **Desempeño técnico**: 24 - 32 horas. 
 
-## 6 Plan de acción ante riesgos
+## 6. Plan de acción ante riesgos
 
 ### **Riesgos de Negocio**
 
@@ -226,3 +228,4 @@ Tiempo máximo para restablecer operaciones despúes de un incidente :
         Replanificación de tareas y horarios. 
 
         Comunicar a los clientes con anticipación o dar updates regulares.  
+
