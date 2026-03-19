@@ -152,10 +152,20 @@ Multiplicacion de probabilidad por impacto:
     6-11     Riesgo medio
     <= 5     Riesgo bajo
 
-| Riesgo                  | Probabilidad | Impacto | Prioridad |
+| Riesgos de negocio       | Probabilidad | Impacto | Prioridad |
 |--------------------------|--------------|---------|-----------|
 | Retrasos en la entrega   | 3            | 3       | 9         |
 | Sobrecostos              | 2            | 4       | 8         |
+| Cambios operativos       | 3            | 3       | 9         |
+| Poca acogida del MVP     | 2            | 5       | 10        |
+| Riesgos técnicos         | Probabilidad | Impacto | Prioridad |
+|--------------------------|--------------|---------|-----------|
+| Falta de claridad        |              |         |           |
+en requerimientos          | 3            | 4       | 12        |
+| Bajo desempeño           | 2            | 5       | 10        |
+| Contratiempos operativos | 2            | 3       | 6         |
+| Fallos técnicos          | 3            | 5       | 15        |
+
 
 ## 5. Determinación de tiempos de recuperación
 
