@@ -118,6 +118,14 @@ sospechosas cuando cumplan cumplan los siguientes criterios(ej. monto alto o ubi
 
 **Para** tener un historial que permita auditar las decisiones tomadas
 
+### Criterios de aceptación
+**Escenario 1: Registro de transacción**
+        Dado que las transacciones han sido evaluadas  
+
+        Cuando se determina su estado final (Sospechosa o no sospechosa) 
+
+        Entonces el sistema registra en la base de datos los resultados de esta evaluación
+        
 ## HU7 – Marcar transacciones para revisión manual
 
 **Como** sistema antifraude
