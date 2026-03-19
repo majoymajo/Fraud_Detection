@@ -34,11 +34,18 @@
 ### Criterios de aceptación 
 
 **Escenario 1:Ubicación de la transacción inusual**
-        Dado que la ubicación usual de la transferencia esta registrada   
+        Dado que la ubicación habitual del usuario esta registrada   
 
-        Cuando se hace un movimiento desde una ubicación inusual  
+        Cuando se hace un movimiento desde una ubicación diferente  
 
-        Entonces el sistema lo detecta como transacción inusual.    
+        Entonces el sistema lo detecta como transacción inusual. 
+**Escenario 2: Ubicación de la transacción usual**
+        Dado que la ubicación habitual del usuario esta registrada 
+
+        Cuando se hace un movimiento desde esa ubicación 
+
+        Entonces el sistema lo detecta como transacción usual. 
+
 
 
 
