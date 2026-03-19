@@ -200,3 +200,10 @@ Tiempo máximo para restablecer operaciones despúes de un incidente :
 
     Demostraciones live del MVP.
 
+### Riesgos Técnicos
+- **Falta de claridad en los requerimientos**
+    Reuniones para unificar ideas y alinear objetivos . 
+
+    Esto garantizaría que todos esten en sincronía nuevamente. 
+
+    Documentación de los acuerdos de las reuniones en un lugar accesible para el equipo.
