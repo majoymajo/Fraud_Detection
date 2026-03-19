@@ -156,11 +156,11 @@ sospechosas cuando cumplan cumplan los siguientes criterios(ej. monto alto o ubi
 
         Dado que el administrador tiene acceso al sistema  
 
-        Cuando el ingrese el monto limite de una transacción  
+        Cuando el ingrese el monto límite de una transacción  
 
-        Entonces el sistema guardara ese parametro  
+        Entonces el sistema guardará ese parámetro  
 
-        Y lo aplicara  al evaluar las transacciones 
+        Y lo aplicará  al evaluar las transacciones 
 
 ## HU9 – Configurar ubicaciones habituales
 
@@ -169,6 +169,16 @@ sospechosas cuando cumplan cumplan los siguientes criterios(ej. monto alto o ubi
 **Quiero** definir las ubicaciones habituales de un usuario basadas en su historial de transacciones
 
 **Para** mejorar la detección de anomalías
+
+### **Criterios de aceptación**
+**Escenario 1: Determinación de ubicaciónes habituales**
+        Dado que el administrador tiene acceso al sistema 
+
+        Cuando inserte la ubicacion habitual de una transacción 
+
+        Entonces el sistema guardara ese parametro  
+
+        Y lo aplicara al evaluar las transacciones   
 
 ## HU10 – Configurar niveles de riesgo
 
