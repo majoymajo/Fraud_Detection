@@ -186,32 +186,39 @@ Tiempo máximo para restablecer operaciones despúes de un incidente :
     Actualización del plan con nuevos horarios y distribución de tareas.
 
 - **Sobrecostos**
+
     Colaborar con el equipo de finanzas para distribuir adecuadamente el dinero en herramientas de IT con el presupuesto disponible. 
 
     Cancelación de suscripciones no utilizadas o no necesarias.
 
 - **Cambios operativos**
+
     Reestructuracion del plan de trabajo y tareas.  
 
     Comunicar a los clientes con anticipación o dar updates regulares.
 
 - **Poca acogida del MVP**
+
     Programas/Charlas de incentivación del programa. 
 
     Demostraciones live del MVP.
 
 ### Riesgos Técnicos
+
 - **Falta de claridad en los requerimientos**
+
     Reuniones para unificar ideas y alinear objetivos . 
 
     Esto garantizaría que todos esten en sincronía nuevamente. 
 
     Documentación de los acuerdos de las reuniones en un lugar accesible para el equipo.
 
-- **Bajo desempeño**
-    Mantener activo el sistema para clinetes con las funcionalidades que esten funcionando exitosamente y reparacion en background de las partes que necesitan mejoras. 
+- **Bajo desempeño y fallos técnicos**
+
+    Mantener activo el sistema para clientes con las funcionalidades que esten funcionando exitosamente y reparación en background de las partes que necesitan mejoras. 
 
 - **Contratiempos operativos**
+
     Replanificación de tareas y horarios. 
 
     Comunicar a los clientes con anticipación o dar updates regulares.  
