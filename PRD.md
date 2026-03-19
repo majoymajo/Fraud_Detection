@@ -207,3 +207,11 @@ Tiempo máximo para restablecer operaciones despúes de un incidente :
     Esto garantizaría que todos esten en sincronía nuevamente. 
 
     Documentación de los acuerdos de las reuniones en un lugar accesible para el equipo.
+
+- **Bajo desempeño**
+    Mantener activo el sistema para clinetes con las funcionalidades que esten funcionando exitosamente y reparacion en background de las partes que necesitan mejoras. 
+
+- **Contratiempos operativos**
+    Replanificación de tareas y horarios. 
+
+    Comunicar a los clientes con anticipación o dar updates regulares.  
