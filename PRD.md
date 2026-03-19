@@ -181,9 +181,9 @@ Tiempo máximo para restablecer operaciones despúes de un incidente :
 
 - **Retrasos en la entrega**
 
-    Comunicar a los clientes con anticipación o dar updates regulares 
+    Comunicar a los clientes con anticipación o dar updates regulares. 
 
-    Generar un update del plan con nuevos horarios y distribucion de tareas.
+    Actualización del plan con nuevos horarios y distribución de tareas.
 
 - **Sobrecostos**
     Colaborar con el equipo de finanzas para distribuir adecuadamente el dinero en herramientas de IT con el presupuesto disponible. 
@@ -191,3 +191,12 @@ Tiempo máximo para restablecer operaciones despúes de un incidente :
     Cancelación de suscripciones no utilizadas o no necesarias.
 
 - **Cambios operativos**
+    Reestructuracion del plan de trabajo y tareas.  
+
+    Comunicar a los clientes con anticipación o dar updates regulares.
+
+- **Poca acogida del MVP**
+    Programas/Charlas de incentivación del programa. 
+
+    Demostraciones live del MVP.
+
