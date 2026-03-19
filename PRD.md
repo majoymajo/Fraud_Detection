@@ -183,4 +183,11 @@ Tiempo máximo para restablecer operaciones despúes de un incidente :
 
     Comunicar a los clientes con anticipación o dar updates regulares 
 
-    Generar un update del plan con nuevos horarios y distribucion de tareas. 
+    Generar un update del plan con nuevos horarios y distribucion de tareas.
+
+- **Sobrecostos**
+    Colaborar con el equipo de finanzas para distribuir adecuadamente el dinero en herramientas de IT con el presupuesto disponible. 
+
+    Cancelación de suscripciones no utilizadas o no necesarias.
+
+- **Cambios operativos**
