@@ -32,3 +32,6 @@ Consideraciones:
 | HU1  | Evaluar monto                   | 3           | Lógica simple de validación y comparación contra umbral. Baja complejidad y poca incertidumbre. |
 | HU2  | Evaluar ubicación               | 5           | Requiere comparar con historial del usuario y definir qué es “inusual”. Mayor lógica e incertidumbre. |
 | HU3  | Marcar sospechosa               | 3           | Orquesta resultados de otras HUs. No agrega lógica compleja nueva. |
+| HU4  | Clasificar el riesgo               | 5           | Combina múltiples condiciones (monto y/ o ubicación) e introduce reglas de negocio adicionales. |
+| HU5  | Generar alerta                  | 5           | Incluye lógica de duplicidad y emisión de eventos. Depende de otras HUs. |
+| HU6  | Registrar transacciones         | 5           | Implementación de persistencia, endpoint, filtros y paginación.  |
