@@ -117,7 +117,7 @@
 
 ## QA Tasks  🧪
 
-- **Confirmar registro exitoso de transacciones evaluadas** : verificar que las transacciones se guardan en la base de datos con su clasificacion de riesgo y tipo de transacción(Sospechosa/No Sospechosa).  
+- **Confirmar registro exitoso de transacciones evaluadas** : verificar que las transacciones se guardan en la base de datos con su clasificación de riesgo y tipo de transacción(Sospechosa/No Sospechosa).  
 
 # HU7 – Marcar transacciones para revisión manual
 
@@ -132,6 +132,10 @@
     • 	Persistir estado en la base de datos.
 
     • 	Crear endpoint para consultar transacciones en revisión.
+
+## QA Tasks  🧪
+
+- **Verificar que transaccines no concluyentes se marcan para revisión humana**: ver que transacciones que no cumplen criterios claros se envien a revisión manual y se puedan consultar a través del endpoint correspondiente.
 
 # HU8 – Configurar monto máximo
 
