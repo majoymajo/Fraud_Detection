@@ -100,3 +100,16 @@
     • 	Persistir estado en la base de datos.
 
     • 	Crear endpoint para consultar transacciones en revisión.
+
+# HU8 – Configurar monto máximo
+
+## DEV Tasks
+
+    • 	Crear la entidad/configuración.
+
+    • 	Crear el endpoint.
+
+    • 	Validar los valores (numéricos, > 0).
+
+    • 	Integrar el umbral con evaluación de monto.
+
