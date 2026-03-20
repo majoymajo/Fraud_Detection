@@ -83,7 +83,11 @@
 
 ## QA Tasks  🧪
 
-- **Comprobar que su nivel de riesgo(bajo,medio,alto )** haya sido asignado cumpliendo los criterios establecidos por el admin.
+- **Comprobar clasificación de transacciones de bajo riesgo** : montos bajos y ubicaciones usuales.
+
+- **Comprobar clasificación de transacciones de riesgo medio** : montos altos pero ubicaciones usuales, o montos bajos pero ubicaciones inusuales.
+
+- **Comprobar clasificación de transacciones de alto riesgo** : montos altos y ubicaciones inusuales.
 
 # HU5 – Generar alerta de fraude
 
@@ -96,6 +100,10 @@
     • 	Validar duplicidad de alertas por transacción.
 
     • 	Enviar alerta como evento.
+
+## QA Tasks  🧪
+
+- **Confirmar que las transacciones sospechosas emiten alerta esperada**
 
 # HU6 – Registrar transacciones evaluadas
 
