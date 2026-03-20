@@ -79,7 +79,7 @@ sospechosas cuando cumplan cumplan los siguientes criterios(ej. monto alto o ubi
 
 **Como**: Sistema Antifraude.
 
-**Quiero**: Asignar una categoría de riesgo (Alto, Medio, Bajo) a cada transacción sospechosa según los criterios establecidos
+**Quiero**: Asignar una categoría de riesgo (Alto, Medio, Bajo) a cada transacción sospechosa según usando criterios previamente configurados
 
 **Para**: priorizar su análisis.
 
@@ -194,9 +194,9 @@ sospechosas cuando cumplan cumplan los siguientes criterios(ej. monto alto o ubi
 
 **Como** administrador
 
-**Quiero** definir los criterios de clasificación de riesgo
+**Quiero** definir y modificar los criterios de clasificación de riesgos
 
-**Para** ajustar la priorización de transacciones
+**Para** controlar cómo se priorizan las transacciones sospechosa
 
 ### **Criterios de aceptación**
 **Escenario 1 : Determinar criterios para clasificación de riesgo** 
