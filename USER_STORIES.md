@@ -18,6 +18,7 @@
 
         Entonces el sistema lo clasifica como transacción inusual 
 **Escenario 2 : Monto es igual o menor al umbral**
+
         Dado que el monto de la transacción es menor  o igua a X  
 
         Cuando la transacción es procesada por el sistema 
@@ -34,12 +35,14 @@
 ### **Criterios de aceptación** 
 
 **Escenario 1:Ubicación de la transacción inusual**
+
         Dado que la ubicación habitual del usuario esta registrada   
 
         Cuando se hace un movimiento desde una ubicación diferente  
 
         Entonces el sistema lo detecta como transacción inusual. 
 **Escenario 2: Ubicación de la transacción usual**
+
         Dado que la ubicación habitual del usuario esta registrada 
 
         Cuando se hace un movimiento desde esa ubicación 
@@ -58,12 +61,14 @@ sospechosas cuando cumplan cumplan los siguientes criterios(ej. monto alto o ubi
 ### **Criterios de aceptación**
 
 **Escenario 1: Señal de transacción sospechosa**
+
         Dado que el sistema evalua el monto y lugar de cada transacción  
 
         Cuando la transacción no cumple alguno de estos criterios 
 
         Entonces el sistema señala como sospechosa la transacción. 
 **Escenario 2: Señal de Transacción no sospechosa**
+
         Dado que el sistema evalua el monto y lugar de cada transacción  
 
         Cuando la transacción cumple con estos criterios 
@@ -80,6 +85,7 @@ sospechosas cuando cumplan cumplan los siguientes criterios(ej. monto alto o ubi
 
 ### **Criterios de aceptación**
 **Escenario 1: Categorizar el nivel de riesgo de una transacción**
+
         Dado que una transacción es detectada como sospechosa 
 
         Cuando el sistema evalua los criterios establecidos por el administrador
@@ -96,6 +102,7 @@ sospechosas cuando cumplan cumplan los siguientes criterios(ej. monto alto o ubi
 
 ### **Criterios de aceptación**
 **Escenario 1 : Emitir alerta de fraude**
+
         Dado que una transacción es detectada como sospechosa 
 
         Y se le asigna una categoría de riesgo 
@@ -104,6 +111,7 @@ sospechosas cuando cumplan cumplan los siguientes criterios(ej. monto alto o ubi
 
         Entonces el sistema emite una alerta para ser validada automaticamente o por un humano 
 **Escenario 2: No emitir alerta de fraude**
+
         Dado que una transacción no es detectada como sospechosa 
 
         Cuando se termina el proceso de evaluación 
@@ -120,6 +128,7 @@ sospechosas cuando cumplan cumplan los siguientes criterios(ej. monto alto o ubi
 
 ### **Criterios de aceptación**
 **Escenario 1: Registro de transacción**
+
         Dado que las transacciones han sido evaluadas  
 
         Cuando se determina su estado final (Sospechosa o no sospechosa) 
@@ -172,6 +181,7 @@ sospechosas cuando cumplan cumplan los siguientes criterios(ej. monto alto o ubi
 
 ### **Criterios de aceptación**
 **Escenario 1: Determinación de ubicaciónes habituales**
+
         Dado que el administrador tiene acceso al sistema 
 
         Cuando inserte la ubicacion habitual de una transacción 
