@@ -86,3 +86,17 @@
     • 	Crear endpoint  con filtros y paginación.
 
    
+
+# HU7 – Marcar transacciones para revisión manual
+
+## DEV Tasks
+
+    •	Definir el estado "requiere revisión manual".
+    
+    • 	Implementar la lógica para marcar las transacciones inconclusas.
+
+    • 	Actualizar estado según las reglas de negocio.
+
+    • 	Persistir estado en la base de datos.
+
+    • 	Crear endpoint para consultar transacciones en revisión.
