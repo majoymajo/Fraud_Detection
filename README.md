@@ -12,3 +12,15 @@ Desarrollar un sistema antifraude que permita detectar transacciones sospechosas
 
 •	Tareas (DEV y QA) → Detallan la implementación técnica y pruebas (SUBTASKS.md)
 
+
+# Criterios de la evaluación de las HUs 
+
+Se utilizó la escala **Fibonacci (3, 5, 8)** para representar el trabajo que requiere cada HU.
+
+Consideraciones:
+
+- Complejidad técnica  
+- Tamaño del trabajo  
+- Incertidumbre
+
+
