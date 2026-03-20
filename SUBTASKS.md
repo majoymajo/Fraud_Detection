@@ -149,15 +149,17 @@
 
     • 	Integrar el umbral con evaluación de monto.
 
+## QA Tasks  🧪
 
+- **Probar configuración valor límite** : verificar que el umbral sea guardado correctamente y que solo acepte valores numéricos mayores a cero.
 
-#  HU9 – Configurar ubicaciones habituales
+#  HU9 – Configurar ubicación habitual del usuario
 
 ## DEV Tasks
 
     • 	Diseñar la entidad.
 
-    • 	Crear la tabla de ubicaciones por usuario.
+    • 	Crear la tabla de país de por usuario.
 
     • 	Crear el endpoint.
 
@@ -166,6 +168,10 @@
     • 	Actualizar el historial del usuario.
 
     • 	Integrar con la evaluación de ubicación.
+
+## QA Tasks  🧪
+
+- **Probar configuración de país usual del usuario**:
 
 # HU10 – Configurar niveles de riesgo
 

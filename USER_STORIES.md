@@ -171,11 +171,11 @@ sospechosas cuando cumplan cumplan los siguientes criterios(ej. monto alto o ubi
 
         Y lo aplicará  al evaluar las transacciones 
 
-## HU9 – Configurar ubicaciones habituales
+## HU9 – Configurar ubicacion usual del usuario
 
 **Como** administrador
 
-**Quiero** definir las ubicaciones habituales de un usuario basadas en su historial de transacciones
+**Quiero** definir ubicación habitual del usuario basado en su historial de transacciones
 
 **Para** mejorar la detección de anomalías
 
