@@ -189,3 +189,4 @@
 
 - **Probar aplicación adecuada de reglas de riesgo**: verificar que reglas de riesgo (bajo,medio,alto) se guarden correctamente.
 
+
