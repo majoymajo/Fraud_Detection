@@ -171,7 +171,7 @@
 
 ## QA Tasks  🧪
 
-- **Probar configuración de país usual del usuario**:
+- **Probar configuración de país usual del usuario**: comprobar que la ubicación se guarde correctamente y que solo acepte datos válidos. 
 
 # HU10 – Configurar niveles de riesgo
 
@@ -185,5 +185,7 @@
 
 • 	Integrar reglas con clasificación de riesgo.
 
+## QA Tasks  🧪
 
+- **Probar aplicación adecuada de reglas de riesgo**: verificar que reglas de riesgo (bajo,medio,alto) se guarden correctamente y que se apliquen bien.
 
