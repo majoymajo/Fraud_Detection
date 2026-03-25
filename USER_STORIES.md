@@ -10,7 +10,7 @@
 
 ### **Criterios de aceptación** 
 
-**Escenario 1: Monto exced el umbral**
+**Escenario 1: Monto excede el umbral**
 
         Dado que el monto de una transacción excede el umbral establecido 
 

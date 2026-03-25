@@ -5,7 +5,9 @@
 ## Índice
 1. [HU1 – Evaluar monto de la transacción](#hu1--evaluar-monto-de-la-transacción)
 2. [HU2 – Evaluar ubicación de la transacción](#hu2--evaluar-ubicación-de-la-transacción)
-3. [Resumen de Cobertura](#resumen-de-cobertura)
+3. [HU3 – Marcar transacción sospechosa](#hu3--marcar-transacción-sospechosa)
+4. [HU4 – Clasificar nivel de riesgo](#hu4--clasificar-nivel-de-riesgo)
+5. [Resumen de Cobertura](#resumen-de-cobertura)
 
 ---
 
@@ -291,6 +293,138 @@
 
 ---
 
+## HU3 – Marcar transacción sospechosa
+
+> **Como** sistema antifraude **quiero** marcar transacciones como sospechosas cuando cumplan los criterios (ej. monto alto o ubicación inusual) **para** permitir su revisión.
+
+### Casos de Prueba — HU3
+
+| Campo | TC-019 |
+| :--- | :--- |
+| **ID** | TC-019 |
+| **Historia de Usuario** | HU3 – Marcar transacción sospechosa |
+| **Escenario Gherkin** | **Dado** que el monto de una transacción excede el umbral (20,000) **Y** la ubicación es usual ("Colombia") **Cuando** la transacción es procesada **Entonces** el sistema marca la transacción como "Sospechosa" |
+| **Precondiciones** | Umbral: 15,000. Registro habitual: Colombia. |
+| **Datos de entrada** | `monto: 20000`, `pais: "Colombia"` |
+| **Pasos de ejecución** | 1. Enviar transacción con monto alto y ubicación usual. 2. Verificar campo `sospechosa` en la respuesta. |
+| **Resultado esperado** | `sospechosa: true`. La regla de monto activa la alerta. |
+| **Resultado obtenido** | Sin ejecutar |
+| **Estado** | 🔘 Sin ejecutar |
+| **Prioridad** | 🔴 Crítico |
+
+---
+
+| Campo | TC-020 |
+| :--- | :--- |
+| **ID** | TC-020 |
+| **Historia de Usuario** | HU3 – Marcar transacción sospechosa |
+| **Escenario Gherkin** | **Dado** que el monto de una transacción es normal (5,000) **Y** la ubicación es inusual ("Rusia") **Cuando** la transacción es procesada **Entonces** el sistema marca la transacción como "Sospechosa" |
+| **Precondiciones** | Umbral: 15,000. Registro habitual: Colombia. |
+| **Datos de entrada** | `monto: 5000`, `pais: "Rusia"` |
+| **Pasos de ejecución** | 1. Enviar transacción con monto normal y ubicación inusual. 2. Verificar campo `sospechosa` en la respuesta. |
+| **Resultado esperado** | `sospechosa: true`. La regla de ubicación activa la alerta. |
+| **Resultado obtenido** | Sin ejecutar |
+| **Estado** | 🔘 Sin ejecutar |
+| **Prioridad** | 🔴 Crítico |
+
+---
+
+| Campo | TC-021 |
+| :--- | :--- |
+| **ID** | TC-021 |
+| **Historia de Usuario** | HU3 – Marcar transacción sospechosa |
+| **Escenario Gherkin** | **Dado** que el monto excede el umbral (30,000) **Y** la ubicación es inusual ("Islas Caimán") **Cuando** la transacción es procesada **Entonces** el sistema marca la transacción como "Sospechosa" |
+| **Precondiciones** | Umbral: 15,000. Registro habitual: Colombia. |
+| **Datos de entrada** | `monto: 30000`, `pais: "Islas Caimán"` |
+| **Pasos de ejecución** | 1. Enviar transacción con ambos criterios de riesgo activos. 2. Verificar campo `sospechosa`. |
+| **Resultado esperado** | `sospechosa: true`. |
+| **Resultado obtenido** | Sin ejecutar |
+| **Estado** | 🔘 Sin ejecutar |
+| **Prioridad** | 🔴 Crítico |
+
+---
+
+| Campo | TC-022 |
+| :--- | :--- |
+| **ID** | TC-022 |
+| **Historia de Usuario** | HU3 – Marcar transacción sospechosa |
+| **Escenario Gherkin** | **Dado** que el monto es normal (2,000) **Y** la ubicación es usual ("Colombia") **Cuando** la transacción es procesada **Entonces** el sistema marca la transacción como "No Sospechosa" |
+| **Precondiciones** | Umbral: 15,000. Registro habitual: Colombia. |
+| **Datos de entrada** | `monto: 2000`, `pais: "Colombia"` |
+| **Pasos de ejecución** | 1. Enviar transacción legítima (monto bajo, país habitual). 2. Verificar campo `sospechosa`. |
+| **Resultado esperado** | `sospechosa: false`. |
+| **Resultado obtenido** | Sin ejecutar |
+| **Estado** | 🔘 Sin ejecutar |
+| **Prioridad** | 🔴 Crítico |
+
+---
+
+## HU4 – Clasificar nivel de riesgo
+
+> **Como** sistema antifraude **quiero** asignar una categoría de riesgo (Alto, Medio, Bajo) a cada transacción **para** priorizar su análisis.
+
+### Casos de Prueba — HU4
+
+| Campo | TC-023 |
+| :--- | :--- |
+| **ID** | TC-023 |
+| **Historia de Usuario** | HU4 – Clasificar nivel de riesgo |
+| **Escenario Gherkin** | **Dado** que una transacción tiene monto alto (25,000) **Y** ubicación inusual ("Corea del Norte") **Cuando** el sistema evalúa el riesgo **Entonces** asigna el nivel de riesgo "ALTO" |
+| **Precondiciones** | Dos reglas de riesgo activadas simultáneamente. |
+| **Datos de entrada** | `monto: 25000`, `pais: "Corea del Norte"` |
+| **Pasos de ejecución** | 1. Ejecutar evaluación con doble factor de riesgo. 2. Validar el campo `nivel_riesgo` en la respuesta. |
+| **Resultado esperado** | `nivel_riesgo: "ALTO"`. |
+| **Resultado obtenido** | Sin ejecutar |
+| **Estado** | 🔘 Sin ejecutar |
+| **Prioridad** | 🔴 Crítico |
+
+---
+
+| Campo | TC-024 |
+| :--- | :--- |
+| **ID** | TC-024 |
+| **Historia de Usuario** | HU4 – Clasificar nivel de riesgo |
+| **Escenario Gherkin** | **Dado** que una transacción tiene monto alto (20,000) **PERO** ubicación habitual ("Colombia") **Cuando** el sistema evalúa el riesgo **Entonces** asigna el nivel de riesgo "MEDIO" |
+| **Precondiciones** | Solo una regla de riesgo activada (Monto). |
+| **Datos de entrada** | `monto: 20000`, `pais: "Colombia"` |
+| **Pasos de ejecución** | 1. Ejecutar evaluación con un solo factor (monto). 2. Validar el campo `nivel_riesgo`. |
+| **Resultado esperado** | `nivel_riesgo: "MEDIO"`. |
+| **Resultado obtenido** | Sin ejecutar |
+| **Estado** | 🔘 Sin ejecutar |
+| **Prioridad** | 🟠 Alto |
+
+---
+
+| Campo | TC-025 |
+| :--- | :--- |
+| **ID** | TC-025 |
+| **Historia de Usuario** | HU4 – Clasificar nivel de riesgo |
+| **Escenario Gherkin** | **Dado** que una transacción tiene monto normal (1,000) **PERO** ubicación inusual ("Nigeria") **Cuando** el sistema evalúa el riesgo **Entonces** asigna el nivel de riesgo "MEDIO" |
+| **Precondiciones** | Solo una regla de riesgo activada (Ubicación). |
+| **Datos de entrada** | `monto: 1000`, `pais: "Nigeria"` |
+| **Pasos de ejecución** | 1. Ejecutar evaluación con un solo factor (ubicación). 2. Validar el campo `nivel_riesgo`. |
+| **Resultado esperado** | `nivel_riesgo: "MEDIO"`. |
+| **Resultado obtenido** | Sin ejecutar |
+| **Estado** | 🔘 Sin ejecutar |
+| **Prioridad** | 🟠 Alto |
+
+---
+
+| Campo | TC-026 |
+| :--- | :--- |
+| **ID** | TC-026 |
+| **Historia de Usuario** | HU4 – Clasificar nivel de riesgo |
+| **Escenario Gherkin** | **Dado** que una transacción tiene monto normal (500) **Y** ubicación habitual ("Colombia") **Cuando** el sistema evalúa el riesgo **Entonces** asigna el nivel de riesgo "BAJO" |
+| **Precondiciones** | Ninguna regla de riesgo activada. |
+| **Datos de entrada** | `monto: 500`, `pais: "Colombia"` |
+| **Pasos de ejecución** | 1. Ejecutar evaluación de transacción sin riesgos. 2. Validar el campo `nivel_riesgo`. |
+| **Resultado esperado** | `nivel_riesgo: "BAJO"`. |
+| **Resultado obtenido** | Sin ejecutar |
+| **Estado** | 🔘 Sin ejecutar |
+| **Prioridad** | 🟡 Medio |
+
+---
+
 ## Resumen de Cobertura
 
 ### Totales por Historia de Usuario
@@ -299,13 +433,15 @@
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | **HU1 – Evaluar monto** | 9 | 5 | 2 | 2 | 0 |
 | **HU2 – Evaluar ubicación** | 9 | 4 | 3 | 2 | 0 |
-| **Total** | **18** | **9** | **5** | **4** | **0** |
+| **HU3 – Marcar sospecha** | 4 | 4 | 0 | 0 | 0 |
+| **HU4 – Nivel de riesgo** | 4 | 1 | 2 | 1 | 0 |
+| **Total** | **26** | **14** | **7** | **5** | **0** |
 
 ### Estado General de Ejecución
 
 | Estado | Cantidad | Porcentaje |
 | :--- | :---: | :---: |
-| 🔘 Sin ejecutar | 18 | 100% |
+| 🔘 Sin ejecutar | 26 | 100% |
 | ✅ Pasó | 0 | 0% |
 | ❌ Falló | 0 | 0% |
 
