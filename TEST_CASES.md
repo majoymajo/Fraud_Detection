@@ -399,7 +399,7 @@
 | :--- | :--- |
 | **ID** | TC-025 |
 | **Historia de Usuario** | HU4 – Clasificar nivel de riesgo |
-| **Escenario Gherkin** | **Dado** que una transacción tiene monto normal (1,000) **PERO** ubicación inusual ("Nigeria") **Cuando** el sistema evalúa el riesgo **Entonces** asigna el nivel de riesgo "MEDIO" |
+| **Escenario Gherkin** | **Dado** que una transacción tiene monto normal (1,000) **Y** ubicación inusual ("Nigeria") **Cuando** el sistema evalúa el riesgo **Entonces** asigna el nivel de riesgo "MEDIO" |
 | **Precondiciones** | Solo una regla de riesgo activada (Ubicación). |
 | **Datos de entrada** | `monto: 1000`, `pais: "Nigeria"` |
 | **Pasos de ejecución** | 1. Ejecutar evaluación con un solo factor (ubicación). 2. Validar el campo `nivel_riesgo`. |
