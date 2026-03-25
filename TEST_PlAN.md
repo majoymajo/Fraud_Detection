@@ -3,7 +3,7 @@
 
 **Sistema bajo pruebas:** HU1, HU2, HU3 y HU4
 
-**Fecha:** 24/03/2026
+**Fecha:** 25/03/2026
 
 **Version:** 1.0
 
