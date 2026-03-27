@@ -10,7 +10,7 @@ EL MVP se definió desde el principio como pequeño y enfocado, por lo que se pr
 ● ¿El MVP construido es realmente valioso para el negocio a pesar de no haber 
 terminado todo el backlog? 
 
-Sí, el MVP que se construyó sí aporta valor al negocio, incluso sin haber terminado todo el backlog. Esto se debe a que las primeras cuatro historias de usuario ya cubren lo más importante: el motor de reglas para detectar fraude. Con lo que se desarrolló, ya es posible evaluar transacciones según el monto y la ubicación, identificar comportamientos inusuales y asignarles un nivel de riesgo.
+Sí, el MVP que se construyó sí aporta valor al negocio, incluso sin haber terminado todo el backlog. Esto se debe a que las primeras cuatro historias de usuario ya cubren lo más importante: el motor de reglas para detectar fraude. Con lo que se desarrolló, ya es posible evaluar transacciones según el monto y la ubicación, identificar comportamientos inusuales e incluso asignarles un nivel de riesgo.
 
 ● ¿Cómo garantizó el QA la calidad del MVP entregado en un tiempo tan corto? 
 
