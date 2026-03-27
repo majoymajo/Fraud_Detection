@@ -16,4 +16,4 @@ terminado todo el backlog?
 
 El QA garantizó la calidad del MVP en corto tiempo mediante un claro análisis de riesgos en el PRD y plan de pruebas en el Test_Plan . El proyecto se enfocó en las HU críticas del negocio, HU1 a HU4, se creó una matriz de casos de pruebas de 26, cubriendo pruebas de cubrimiento, límite y negativas(nulos, tipos inválidos, valores extremos, datos faltantes).
 
-SerenityBDD/Cucumber, Karate, y k6. Asimismo, el proyecto siguió pruebas de criterios de entrada y salida claros, pruebas de datos previamente preparados, y pruebas de ejecución, lo que garantizó la entrega de MVP.
+Además, se dejaron claros los criterios de entrada y salida y se prepararon los datos de prueba con anticipación. Aunque no se alcanzaron a ejecutar pruebas sobre el sistema, sí quedó organizada toda la base para hacerlo, dejando el MVP listo para validarse sin problema en las siguientes etapas. el desarrollo incluyó pruebas unitarias, lo que ayudó a validar el comportamiento de los componentes.
