@@ -14,5 +14,6 @@ terminado todo el backlog?
 
 ● ¿Cómo garantizó el QA la calidad del MVP entregado en un tiempo tan corto? 
 
-El QA garantizó la calidad del MVP en corto tiempo mediante un claro análisis de riesgos en el PRD y plan de pruebas en el Test_Plan . El proyecto se enfocó en las HU críticas del negocio, HU1 a HU4, se creó una matriz de casos de pruebas de 26, cubriendo pruebas de cubrimiento, de borde y negativas. 
-y se realizó pruebas de validación en capas mediante SerenityBDD/Cucumber, Karate, y k6. Asimismo, el proyecto siguió pruebas de criterios de entrada y salida claros, pruebas de datos previamente preparados, y pruebas de ejecución, lo que garantizó la entrega de MVP.
+El QA garantizó la calidad del MVP en corto tiempo mediante un claro análisis de riesgos en el PRD y plan de pruebas en el Test_Plan . El proyecto se enfocó en las HU críticas del negocio, HU1 a HU4, se creó una matriz de casos de pruebas de 26, cubriendo pruebas de cubrimiento, límite y negativas(nulos, tipos inválidos, valores extremos, datos faltantes).
+
+SerenityBDD/Cucumber, Karate, y k6. Asimismo, el proyecto siguió pruebas de criterios de entrada y salida claros, pruebas de datos previamente preparados, y pruebas de ejecución, lo que garantizó la entrega de MVP.
